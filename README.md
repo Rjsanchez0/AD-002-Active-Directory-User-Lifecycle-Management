@@ -95,7 +95,7 @@ This approach makes onboarding, role changes, and offboarding easier to manage.
 
 ### Screenshot
 
-![Engineering Security Group](../images/AD-002/01-engineering-security-group.png)
+![Engineering Security Group](images/AD-002/01-engineering-security-group.png)
 
 ---
 
@@ -119,7 +119,7 @@ The user was configured to change the temporary password during the initial sign
 
 ### Screenshot
 
-![Jordan Miles in Engineering OU](../images/AD-002/02-jordan-engineering-ou.png)
+![Jordan Miles in Engineering OU](images/AD-002/02-jordan-engineering-ou.png)
 
 ---
 
@@ -133,7 +133,7 @@ This granted the user Engineering-related access through group membership rather
 
 ### Screenshot
 
-![Jordan Miles Engineering Group Membership](../images/AD-002/03-engineering-group-membership.png)
+![Jordan Miles Engineering Group Membership](images/AD-002/03-engineering-group-membership.png)
 
 ---
 
@@ -153,7 +153,7 @@ Expected result:
 
 ### Screenshot
 
-![Successful Domain Authentication](../images/AD-002/04-domain-login-validation.png)
+![Successful Domain Authentication](images/AD-002/04-domain-login-validation.png)
 
 ---
 
@@ -179,7 +179,7 @@ The output confirmed membership in:
 
 ### Screenshot
 
-![Domain Account and Engineering Group Validation](../images/AD-002/05-domain-group-validation.png)
+![Domain Account and Engineering Group Validation](images/AD-002/05-domain-group-validation.png)
 
 ---
 
@@ -199,8 +199,8 @@ Network configuration was reviewed using:
 
 The workstation was configured with:
 
-- **IP Address:** `10.0.2.5`
-- **DNS Server:** `10.0.2.4`
+- **IP Address:** 
+- **DNS Server:** 
 
 Additional testing included:
 
@@ -220,7 +220,7 @@ This demonstrated an important Active Directory troubleshooting concept:
 
 ### Screenshot
 
-![Domain Controller Connectivity Troubleshooting](../images/AD-002/06-dc-connectivity-troubleshooting.png)
+![Domain Controller Connectivity Troubleshooting](images/AD-002/06-dc-connectivity-troubleshooting.png)
 
 ---
 
@@ -256,7 +256,7 @@ Disabling the account prevents normal domain authentication while preserving the
 
 ### Screenshot
 
-![Jordan Miles Account Disabled](../images/AD-002/07-account-disabled.png)
+![Jordan Miles Account Disabled](images/AD-002/07-account-disabled.png)
 
 ---
 
@@ -274,7 +274,7 @@ This separated the former employee from active Engineering personnel.
 
 ### Screenshot
 
-![Jordan Miles Moved to Offboarded Users OU](../images/AD-002/08-offboarded-users-ou.png)
+![Jordan Miles Moved to Offboarded Users OU](images/AD-002/08-offboarded-users-ou.png)
 
 ---
 
@@ -304,7 +304,7 @@ This confirmed that the employee could no longer sign into the domain.
 
 ### Screenshot
 
-![Failed Login After Account Disablement](../images/AD-002/09-disabled-login-test.png)
+![Failed Login After Account Disablement](images/AD-002/09-disabled-login-test.png)
 
 ---
 
@@ -322,7 +322,7 @@ was no longer listed under the user's global group memberships.
 
 ### Screenshot
 
-![Engineering Group Removed From Jordan Miles](../images/AD-002/10-group-removal-validation.png)
+![Engineering Group Removed From Jordan Miles](images/AD-002/10-group-removal-validation.png)
 
 ---
 
@@ -344,7 +344,7 @@ Final state:
 
 ### Screenshot
 
-![Final Offboarding State](../images/AD-002/11-final-offboarding-state.png)
+![Final Offboarding State](images/AD-002/11-final-offboarding-state.png)
 
 ---
 

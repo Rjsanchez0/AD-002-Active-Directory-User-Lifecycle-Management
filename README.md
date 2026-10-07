@@ -178,7 +178,7 @@ The output confirmed membership in:
 
 ### Screenshot
 
-![Domain Account and Engineering Group Validation](images/AD-002/05-domain-group-validation.png)
+
 
 ---
 
